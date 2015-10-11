@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
+  s.watchos.deployment_target = '2.0'
   s.author       = { "Robbie Hanson" => "robbiehanson@deusty.com" }
   s.source       = { :git => "https://github.com/yapstudios/YapDatabase.git", :tag => s.version.to_s }
   s.module_map = "module.modulemap"
